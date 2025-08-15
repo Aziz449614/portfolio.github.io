@@ -59,7 +59,10 @@ html{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: aqua;
+    background:url("/images/2019_08_26_78568_1566791538._large.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 700px;
     width: 100%;
     z-index: -1;
@@ -91,10 +94,12 @@ html{
 }
 
 .gallery img{
-    width: 360px;
-    height: 640px;
+    width: 100%;
+    max-width: 360px;
+    height: auto;
     padding: 10px;
     margin: 10px;
+    object-fit: cover;
 }
 
 .gallery img:hover{
