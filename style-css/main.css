@@ -59,6 +59,7 @@ html{
     position: absolute;
     top: 0;
     left: 0;
+    background-color: aqua;
     height: 700px;
     width: 100%;
     z-index: -1;
