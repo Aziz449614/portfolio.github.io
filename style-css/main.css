@@ -59,7 +59,7 @@ html{
     position: absolute;
     top: 0;
     left: 0;
-    background-image:url("/images/stars.jpg") no-repeat center center/cover;
+    background:url("/images/stars.jpg") no-repeat center center/cover;
     height: 700px;
     width: 100%;
     z-index: -1;
